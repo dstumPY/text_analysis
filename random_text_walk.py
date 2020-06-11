@@ -105,6 +105,7 @@ def read_file(filename):
 def main():
     # store words in list
     # TODO: imporove text preprocessing
+    # words = read_file("test_text.txt")
     words = read_file("hudson.txt")
 
     # transform words in partitions which will serves as
